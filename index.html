@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link href="/dist/output.css" rel="stylesheet" />
+
+        <title>Ame</title>
+    </head>
+    <body>
+        <!-- Nav -->
+        <nav class="shadow-lg flex justify-around items-center">
+            <!-- logo -->
+            <div
+                class="flex items-center font-extrabold text-4xl cursor-pointer"
+            >
+                <img src="images/catLogo.png" class="h-20 w-20" alt="" />
+                <h1>Nekko</h1>
+            </div>
+            <!-- menu items -->
+            <ul
+                class="comic-font flex gap-20 text-xl justify-center items-center tracking-widest cursor-pointer"
+            >
+                <li class="hover:border-b-2 hover:border-b-yellow-300">Home</li>
+                <li class="hover:border-b-2 hover:border-b-yellow-300">
+                    About Ame
+                </li>
+                <li class="hover:border-b-2 hover:border-b-yellow-300">FAQ</li>
+
+                <li>
+                    <button
+                        class="border-2 border-yellow-300 text-yellow-300 py-1 px-6 text-2xl font-extrabold large-letter-spacing hover:bg-yellow-300 hover:text-white"
+                    >
+                        Login
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main section -->
+        <main class="px-40 py-20 bg-red-400 relative bg-transparent">
+            <div class="yellow-blob">
+                <img src="images/blob.png" alt="" srcset="" />
+            </div>
+            <div class="flex gap-10 px-6">
+                <div class="w-5/6">
+                    <!-- Title -->
+                    <h1
+                        class="text-4xl font-extrabold mb-8 large-letter-spacing comic-font"
+                    >
+                        Wanna know who's a
+                        <span class="text-orange-400">Good girl</span>?
+                    </h1>
+                    <!-- section -->
+                    <p>
+                        She's a black cat with beautiful eyes who loves cat
+                        snacks even though she had stones in her bladder.
+                        Sometimes she is grumpy and sometimes she is
+                        affectionate. This is what we love about her!
+                    </p>
+                    <!-- call to action buttons -->
+                    <div class="flex justify-center gap-4 mt-8">
+                        <button
+                            class="bg-yellow-400 px-8 py-2 text-white font-black hover:bg-white hover:text-yellow-400 hover:border-2 hover:border-yellow-400"
+                        >
+                            Yes, I Do
+                        </button>
+                        <button
+                            class="border-yellow-400 border-2 px-8 py-2 text-yellow-400 hover:bg-yellow-400 hover:text-white"
+                        >
+                            No Thanks
+                        </button>
+                    </div>
+                </div>
+                <!-- Cat Image -->
+                <div class="cat-photo">
+                    <img src="images/cat.png" alt="" />
+                </div>
+            </div>
+            <!-- Credit Card -->
+            <div class="bg-yellow-300 mt-12 flex justify-between px-20 py-6">
+                <!-- statement -->
+                <div>
+                    <h2 class="text-white text-xl font-semibold">
+                        Become a patreon of cats
+                    </h2>
+                </div>
+                <div class="flex">
+                    <input
+                        type="text"
+                        class="px-8 outline-none"
+                        placeholder="Enter Credit Card Number"
+                    />
+                    <button class="bg-orange-700 text-white px-4 p-1 m-0">
+                        submit
+                    </button>
+                </div>
+            </div>
+            <!-- Card Sections -->
+            <div class="mt-20">
+                <div class="flex justify-center">
+                    <h1
+                        class="border-b-2 border-yellow-400 px-16 pb-3 tracking-widest text-xl font-semibold"
+                    >
+                        Why Is She So Cute?
+                    </h1>
+                </div>
+                <!-- cards -->
+
+                <div class="flex justify-between p-14">
+                    <div class="w-60 h-60 bg-red-400 shadow-xl"></div>
+                    <div class="w-60 h-60 bg-red-400 shadow-xl"></div>
+                    <div class="w-60 h-60 bg-red-400 shadow-xl"></div>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="mt-16">
+                <div class="flex justify-center">
+                    <h1
+                        class="border-b-2 border-yellow-400 px-16 pb-3 tracking-widest text-xl font-semibold"
+                    >
+                        Her Best Friends
+                    </h1>
+                </div>
+                <!-- cards -->
+
+                <div class="flex justify-between p-14">
+                    <div class="w-96 h-60 bg-red-400 shadow-xl"></div>
+                    <div class="w-96 h-60 bg-red-400 shadow-xl"></div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

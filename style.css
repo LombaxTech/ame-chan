@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+}
+
+.comic-font {
+    font-family: "Shadows Into Light", cursive;
+}
+
+.large-letter-spacing {
+    letter-spacing: 0.2rem;
+}
+
+.cat-photo {
+    width: 450px;
+    object-fit: cover;
+    position: relative;
+    top: 65px;
+}
+
+.yellow-blob {
+    z-index: -10;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+    width: 200px;
+    object-fit: cover;
+}
