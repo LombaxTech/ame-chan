@@ -484,10 +484,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2rem;
 }
 
-.mt-12 {
-  margin-top: 3rem;
-}
-
 .mt-20 {
   margin-top: 5rem;
 }
@@ -522,6 +518,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-96 {
   width: 24rem;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .cursor-pointer {
@@ -596,6 +596,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-orange-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(194 65 12 / var(--tw-bg-opacity));
+}
+
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
 .p-1 {
@@ -744,14 +749,14 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
-  top: 65px;
+  top: 15px;
 }
 
 .yellow-blob {
   z-index: -10;
   position: absolute;
   left: 10px;
-  top: 10px;
+  top: 10p;
   width: 200px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -788,11 +793,6 @@ body {
 .hover\:bg-yellow-400:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
-}
-
-.hover\:px-4:hover {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .hover\:text-white:hover {
